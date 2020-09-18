@@ -26,7 +26,7 @@ public class Utilisateur implements Serializable {
 	private String photo;
 	
 	private String mail;
-	
+	/*activer les droits d'administrateur*/
 	private boolean actived;
 	
 	@OneToMany(mappedBy = "utilisateur")
