@@ -21,7 +21,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
-//il manque un constructeur par défaut 
+//il manque un constructeur par defaut 
 
 @Entity
 public class CommandeClient implements Serializable {

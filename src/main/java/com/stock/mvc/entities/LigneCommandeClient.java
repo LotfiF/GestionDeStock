@@ -49,7 +49,7 @@ public class LigneCommandeClient implements Serializable {
 		this.article = article;
 	}
 
-	@JsonIgnore /*à confirmer*/
+	@JsonIgnore /*a confirmer*/
 	public CommandeClient getCommandeClient() {
 		return commandeClient;
 	}
